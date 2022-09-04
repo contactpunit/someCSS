@@ -62,9 +62,25 @@ body {
 .main-nav__item a {
     color: #0e4f1f;
     text-decoration: none;
+    font-weight: bold;
+    padding: 3px 0;
 }
 
 .main-nav__item a:hover, .main-nav__item a:active {
     cursor: pointer;
     color: white;
+    border-bottom: 2px solid white;
+}
+
+.main-nav__item--hosting a {
+    color: white;
+    padding: 5px 8px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.main-nav__item--hosting a:hover {
+    color: red;
+    background-color: white;
+    border: none;
 }
