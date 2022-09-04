@@ -46,5 +46,5 @@ body {
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 49px);
+    width: calc(100% - 53px);
 }
