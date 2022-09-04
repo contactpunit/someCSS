@@ -44,6 +44,7 @@ body {
 
 .main-nav__item {
     display: inline-block;
+    margin-left: 16px;
 }
 
 .main-header > div {
@@ -56,4 +57,14 @@ body {
     text-align: right;
     width: calc(100% - 75px);
     vertical-align: middle;
+}
+
+.main-nav__item a {
+    color: #0e4f1f;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover, .main-nav__item a:active {
+    cursor: pointer;
+    color: white;
 }
