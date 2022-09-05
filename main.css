@@ -104,6 +104,35 @@ body {
     color: white;
 }
 
+.marketing-points_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.marketing-point__image {
+    background-color: #ffcede;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.marketing-point__desc {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.marketing-points_list li {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
 .main-header {
     width: 100%;
     background-color: #2ddf5c;
