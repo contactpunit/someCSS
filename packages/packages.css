@@ -46,6 +46,10 @@ main {
 
 #free {
     background-color: rgba(234, 252, 237, 0.95);
+    float: right;
+    border-left: 3px solid #0e4f1f;
+    border-right: none;
+    text-align: right;
 }
 
 #premium {
@@ -58,4 +62,8 @@ main {
 
 #premium .package-plan__moto {
     color: #bbb;
+}
+
+.clearfix {
+    clear: both;
 }
