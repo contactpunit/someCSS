@@ -16,7 +16,6 @@ main {
     margin: 16px 0;
     border-left: none;
     background-color: rgb(210, 245, 210);
-    z-index: 0;
 }
 
 .package-plans:hover,
@@ -41,7 +40,6 @@ main {
     margin: 5px;
     color: white;
     background-color: #ff5454;
-    z-index: 10;
 }
 
 .package-plan__name {
