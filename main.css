@@ -1,5 +1,5 @@
 #product-overview {
-    background: url("../freedom.jpg") left 10% bottom 40%/cover no-repeat border-box;
+    background: linear-gradient(to top, rgba(80, 68, 18, 0.6), 10%, transparent), url("../freedom.jpg") left 10% bottom 40%/cover no-repeat border-box, red;
     /* background-image: url("freedom.jpg");
     background-size: cover;
     background-position: left 10% bottom 35%; 
