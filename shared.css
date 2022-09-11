@@ -23,7 +23,7 @@ body {
     color: white;
     font: inherit;
     border: 1.5px solid #0e4f1f;
-    padding: 8px;
+    padding: 0.5rem;
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
@@ -42,7 +42,7 @@ body {
 .main-header {
     width: 100%;
     background-color: #2ddf5c;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -53,12 +53,12 @@ body {
     color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.5rem;
     display: inline-block;
 }
 
 .main-header__brand img {
-    height: 22px;
+    height: 1.5rem;
 }
 
 .main-nav__items {
@@ -69,7 +69,7 @@ body {
 
 .main-nav__item {
     display: inline-block;
-    margin-left: 16px;
+    margin-left: 1rem;
 }
 
 .main-header>div {
@@ -88,7 +88,7 @@ body {
     color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;
-    padding: 3px 0;
+    padding: 0.2rem 0;
 }
 
 .main-nav__item a:hover,
@@ -100,7 +100,7 @@ body {
 
 .main-nav__item--hosting a {
     color: white;
-    padding: 5px 8px;
+    padding: 0.3rem 0.5rem;
     background-color: red;
     border-radius: 5px;
 }
@@ -113,8 +113,8 @@ body {
 
 .main-footer {
     background-color: black;
-    margin-top: 48px;
-    padding: 32px;
+    margin-top: 3rem;
+    padding: 2rem;
 }
 
 .main-footer__links {
@@ -126,7 +126,7 @@ body {
 
 .main-footer__link {
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 
 .main-footer__link a {
