@@ -32,20 +32,17 @@
     text-align: center;
 }
 
-.all-plans {
-    width: 90%;
-    margin: auto;
+/* .all-plans {
+    width: 100%;
     text-align: center;
-}
+} */
 
 .plan {
     background-color: lightgreen;
-    display: inline-block;
-    vertical-align: middle;
     text-align: center;
     padding: 1rem;
-    margin: 0.5rem;
-    width: 30%;
+    margin: 0.5rem 0;
+    width: 100%;
 }
 
 .plan__title {
@@ -68,7 +65,7 @@
 .plan--highlighted {
     background-color: #19b84c;
     color: white;
-    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    /* box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5); */
 }
 
 .plan--highlighted .plan__price {
