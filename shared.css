@@ -52,6 +52,10 @@ main {
     top: 0;
     left: 0;
     z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .toggle-button {
@@ -80,38 +84,23 @@ main {
     color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;
-    /* font-size: 1.5rem; */
-    display: inline-block;
-    vertical-align: middle;
-    height: 2.5rem;
 }
 
 .main-header__brand img {
-    /* height: 1.5rem; */
-    height: 100%;
+    height: 2.5rem;
+    vertical-align: middle;
 }
 
 .main-nav__items {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    flex-direction: row;
 }
 
 .main-nav__item {
-    display: inline-block;
     margin-left: 1rem;
-}
-
-.main-header>div {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.main-nav {
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 122px);
-    vertical-align: middle;
 }
 
 .main-nav__item a,
@@ -188,9 +177,13 @@ main {
     width: 90%;
     height: 100%;
     list-style: none;
-    margin: 10% auto;
+    margin: auto;
     padding: 0;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .mobile-nav__item {
@@ -202,5 +195,6 @@ main {
 }
 
 .open {
-    display: block !important;
+    /* display: block !important; */
+    display: flex;
 }
