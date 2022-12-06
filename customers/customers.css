@@ -4,7 +4,6 @@ main {
 
 .testimonial {
     font-size: 1.2rem;
-    /* margin: 3rem 0; */
 }
 
 .testimonial__image-container {
@@ -26,9 +25,6 @@ main {
 .testimonial__info {
     text-align: right;
     padding: 0.9rem;
-    /* display: inline-block; */
-    /* vertical-align: middle; */
-    /* width: 35%; */
     width: 100%;
 }
 
@@ -71,17 +67,16 @@ main {
     .testimonial {
         margin: 3rem auto;
         max-width: 1027px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
     .testimonial__image-container {
-        display: inline-block;
-        vertical-align: middle;
         width: 60%;
         max-width: 500px;
     }
 
     .testimonial__info {
-        display: inline-block;
-        vertical-align: middle;
         width: 35%;
     }
 }
